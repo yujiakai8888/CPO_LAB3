@@ -15,6 +15,9 @@ Using Mealy finite state machine (FSM) to implement a series of physical systems
   - To change the elevator's state.
 - `test_elevator`
   - Realize the state transition of elevator.
+- `Node::test_convert_self_state`
+- `Node::test_add_convert`
+- `Node::test_convert`
 
 ## Contribution
 
