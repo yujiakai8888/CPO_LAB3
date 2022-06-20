@@ -1,32 +1,36 @@
-# GROUP-NAME - lab NUMBER - variant NUMBER
+# GROUP-NAME - lab 3 - variant 3
 
-This is an example project which demonstrates project structure and necessary
-CI checks. It is not the best structure for real-world projects, but good
-enough for educational purposes.
+eDSL for Mealy finite state machine
 
 ## Project structure
 
-- `foo.py` -- implementation of `Foo` class with `hello` and `add` features.
-   Stateless.
-- `foo_test.py` -- unit and PBT tests for `Foo`.
+- `MFSM.py` -- implementation of `MFSM_mealy` class and `State` class.
+- `MFSM_test.py`  -- unit and PBT tests for `FSM_mealy` class and `State` class.
 
 ## Features
 
-- PBT: `test_add_commutative`
+Using Mealy finite state machine (FSM) to implement a series of physical systems.
+
+- `test_convert_self_state`
+  - To change the elevator's state.
+- `test_elevator`
+  - Realize the state transition of elevator.
 
 ## Contribution
 
-- Aleksandr Penskoi (EMAIL) -- all work.
+- Yu Jiakai (212320029@hdu.edu.cn) -- Complete the 'FSM_mealy.py'.
+- Kang Jiale (212320026@hdu.edu.cn) -- Complete the 'FSM_mealy_test.py'.
 
 ## Changelog
 
-- 29.03.2022 - 2
-  - Add test coverage.
-- 29.03.2022 - 1
+- 2022.06.20 - 3
+  - Update README.
+- 2022.06.18 - 2
+  - Add test sections.
+  - Add test coverage and modify the code for better coverage.
+- 2022.06.17 - 1
   - Update README. Add formal sections.
-- 29.03.2022 - 0
-  - Initial
-
-## Design notes
-
-- ...
+  as suggested.
+- 2022.06.16 - 0
+  - Initialize. Set environment according to 'check.yml' and learning
+  corresponding information about finite state machine (mealy).
